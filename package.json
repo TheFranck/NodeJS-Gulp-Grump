@@ -14,6 +14,7 @@
     "gulp-csscomb": "latest",
     "gulp-csso": "latest",
     "gulp-less": "latest",
+    "gulp-livereload": "^3.8.1",
     "gulp-load-plugins": "latest",
     "gulp-rename": "latest"
   },

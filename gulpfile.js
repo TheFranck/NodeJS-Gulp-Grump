@@ -19,7 +19,8 @@ gulp.task('css', ['clean-css'], function () {
     .pipe(plugins.csscomb())
     .pipe(plugins.cssbeautify({indent: '  '}))
     .pipe(plugins.autoprefixer())
-    .pipe(gulp.dest(destination + '/assets/css/'));
+    .pipe(gulp.dest(destination + '/assets/css/'))
+    .pipe(plugins.livereload());
 });
 
 // Tâche "minify" = minification CSS (destination -> destination)
