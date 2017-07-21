@@ -1,0 +1,25 @@
+.box {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+
+.box div {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+body {
+  position: relative;
+  z-index: 1337;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  background: red;
+}
+
+@media (min-width: 640px) {
+  p {
+    color: pink;
+    box-shadow: 0 0 0 #ff274d;
+  }
+}
